@@ -1,0 +1,40 @@
+body {
+    font-family: system-ui;
+    background: #cad0db;
+    color: darkgray;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 6vw;
+    height: 95vh;
+    width: 95vw;
+  }
+  
+  .add_button {
+    background-color:white;
+    height:10vh;
+    border: 2px dotted black;
+    border-radius: 5px;
+  }
+  
+  #container {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    height: 95vh;
+    width: 95vw;
+  }
+  
+  #box{
+    font-size: 15px;
+    background-color:white;
+    height:10vh;
+    width:10vw;
+    border: 0px;
+    border-radius:50%;
+  }
+  
+  .add_button:hover {
+    background-color:gray;
+  }
